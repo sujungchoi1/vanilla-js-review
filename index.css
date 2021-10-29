@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --light-color: rgb(249, 226, 230);
+}
+
+body {
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(70, 128, 135);
+    color: white;
+}
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        text-align: center;
+        margin: 20px;
+        color: var(--light-color);
+    }
+
+    label {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    input {
+        margin-bottom: 25px;
+    }
+
+    input[type="text"] {
+        padding: 5px 10px;
+        border-radius: 3px;
+        border: none;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 7px 0;
+    }
+
+    .box {
+        height: 100px;
+        width: 100%;
+        background-color: var(--light-color);
+        margin-bottom: 15px;
+    }
